@@ -21,7 +21,7 @@
 			class="text-white font-medium hover:text-gray-200 transition duration-200">Destinasi</a>
 		<a href="./Package.jsp"
 			class="text-white font-medium hover:text-gray-200 transition duration-200">Paket</a>
-		<a href="./daftarTransaksi.jsp"
+		<a href="./Transaction.jsp"
 			class="text-white font-medium hover:text-gray-200 transition duration-200">Transaksi</a>
 		<a href="../exe/exeLogout.jsp"
 			class="text-white font-medium hover:text-gray-200 transition duration-200">Logout</a>

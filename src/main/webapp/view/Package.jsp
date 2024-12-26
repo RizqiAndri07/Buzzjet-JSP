@@ -14,7 +14,7 @@
 			class="text-white font-medium hover:text-gray-200 transition duration-200">Destinasi</a>
 		<a href="./Package.jsp"
 			class="text-white font-medium hover:text-gray-200 transition duration-200">Paket</a>
-		<a href="./daftarTransaksi.jsp"
+		<a href="./Transaction.jsp"
 			class="text-white font-medium hover:text-gray-200 transition duration-200">Transaksi</a>
 		<a href="../exe/exeLogout.jsp"
 			class="text-white font-medium hover:text-gray-200 transition duration-200">Logout</a>
@@ -70,11 +70,14 @@
 						<td class="border border-gray-300 px-4 py-2"><%=pkg.getDescription()%></td>
 						<td class="border border-gray-300 px-4 py-2"><%=pkg.getPrice()%></td>
 						<td class="border border-gray-300 px-4 py-2"><%=destinasi != null ? destinasi.getName() : "N/A"%></td>
-						<td class="border border-gray-300 px-4 py-2 text-center"><a
+						<td class="border border-gray-300 px-4 py-2 text-center">
+						<a
 							href="./PackageEdit.jsp?id=<%=pkg.getId()%>"
-							class="text-blue-500 hover:underline mr-2">Edit</a> <a
+							class="text-blue-500 hover:underline mr-2">Edit</a> 
+							<a
 							href="../exe/exePackageDelete.jsp?id=<%=pkg.getId()%>"
-							class="text-red-500 hover:underline">Hapus</a></td>
+							class="text-red-500 hover:underline">Hapus</a>
+							</td>
 					</tr>
 					<%
 					}

@@ -22,7 +22,7 @@
                 out.println("<script>alert('Transaksi Gagal Dihapus!')</script>");
             }
         } catch (NumberFormatException err) {
-           err.printStackTrace();
+           err.printStackTrace();	
         } 
     %>
     <script>

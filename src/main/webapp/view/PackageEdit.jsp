@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="com.buzzjet.PackageModel, com.buzzjet.Package, com.buzzjet.DestinasiModel, com.buzzjet.Destinasi" %>
 <%
-    int id = Integer.parseInt(request.getParameter("id"));
+    int id = Integer.parseInt(request.getParameter("id")); 
     PackageModel packageModel = new PackageModel();
     Package pkg = null;
 

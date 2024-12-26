@@ -11,7 +11,7 @@
 	<%
 	UserModel userModel = new UserModel();
 	try {
-		String username = request.getParameter("username");
+		String username = request.getParameter("username"); //reequest adalah global variabel
 		String password = request.getParameter("password");
 
 		User user = userModel.validateUser(username, password);
