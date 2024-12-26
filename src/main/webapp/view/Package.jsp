@@ -8,10 +8,16 @@
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-	<div class="flex w-full bg-slate-400 justify-center gap-x-8 py-4">
-		<a href="./Destinasi.jsp">Destinasi</a> <a href="./Package.jsp">Paket</a>
-		<a href="./daftarSupplier.jsp">Supplier</a> <a
-			href="./daftarTransaksi.jsp">Transaksi</a>
+	<div
+		class="flex w-full bg-slate-400 justify-center gap-x-8 py-4 shadow-md">
+		<a href="./Destinasi.jsp"
+			class="text-white font-medium hover:text-gray-200 transition duration-200">Destinasi</a>
+		<a href="./Package.jsp"
+			class="text-white font-medium hover:text-gray-200 transition duration-200">Paket</a>
+		<a href="./daftarTransaksi.jsp"
+			class="text-white font-medium hover:text-gray-200 transition duration-200">Transaksi</a>
+		<a href="../exe/exeLogout.jsp"
+			class="text-white font-medium hover:text-gray-200 transition duration-200">Logout</a>
 	</div>
 	<section
 		class="w-full flex flex-col justify-center items-center my-6 px-4">
